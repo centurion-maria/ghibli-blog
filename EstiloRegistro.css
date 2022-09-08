@@ -1,0 +1,34 @@
+body {
+    background-image: url(Images/ghibli-9.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.grilla {
+    display: grid;
+    gap: 2em;
+}
+
+.grilla > form {
+    text-shadow: 3px 3px 3px black;
+    color: blanchedalmond;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+}
+
+.header {
+    color:blanchedalmond;
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Sofia", sans-serif;
+    font-weight: bold;
+    justify-self: center;
+    padding: 40px;
+    
+}
+
+#titulo {
+    text-align: center;
+}

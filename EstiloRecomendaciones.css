@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(Images/ghibli-9.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat( 2 , 1fr);
+    gap: 30px;
+    margin-left: 200px;
+    width: 50%;
+    max-width: 1000px;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+
+.gallery_item > img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+.gallery_item {
+    padding: 25px;
+}
+
+.gallery_item:hover {
+    transform: scale(1.05);
+}
+
+
+.item_text {
+    font-weight: bold;
+    font-family: "Sofia", sans-serif;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+    background-color: ivory;
+}
+
+
+.title {
+    color: blanchedalmond;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+    justify-self: center;
+    font-size: 60px;
+    font-family: "Sofia", sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
